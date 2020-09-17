@@ -4,6 +4,9 @@ public class a {
     private String name;
     private int age;
 
+    //新增的类型
+    private String type;
+
     public String getName() {
         return name;
     }
@@ -18,5 +21,13 @@ public class a {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }
