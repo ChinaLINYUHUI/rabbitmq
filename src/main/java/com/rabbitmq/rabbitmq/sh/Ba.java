@@ -5,4 +5,5 @@ public class Ba {
 
 
     private int gt;
+    private String nms;
 }
